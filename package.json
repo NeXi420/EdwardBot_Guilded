@@ -10,6 +10,7 @@
     "@guildedjs/common": "^1.0.3",
     "@guildedjs/embeds": "^1.0.3",
     "@guildedjs/guilded.js": "^2.2.1",
-    "@guildedjs/webhook-client": "^1.0.4"
+    "@guildedjs/webhook-client": "^1.0.4",
+    "sqlite3": "^5.0.2"
   }
 }
