@@ -1,6 +1,6 @@
 {
   "name": "edward-bot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test",
   "main": "bot.js",
   "repository": "https://github.com/NeXi420/EdwardBot_Guilded.git",
@@ -11,6 +11,7 @@
     "@guildedjs/embeds": "^1.0.3",
     "@guildedjs/guilded.js": "^2.2.1",
     "@guildedjs/webhook-client": "^1.0.4",
+    "better-sqlite3": "^7.4.3",
     "sqlite3": "^5.0.2"
   }
 }

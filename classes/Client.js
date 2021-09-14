@@ -1,3 +1,4 @@
+"use strict";
 const { Client } = require("@guildedjs/guilded.js");
 const { CacheCollection } = require("@guildedjs/common");
 class Bot extends Client {

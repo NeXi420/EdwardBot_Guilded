@@ -1,1 +1,2 @@
-const { Database } = require("sqlite3");
+"use strict";
+const { Database } = require("better-sqlite3");
