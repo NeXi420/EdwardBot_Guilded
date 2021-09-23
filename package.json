@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Test",
   "main": "bot.js",
+  "type": "commonjs",
+  "engines": {
+    "node": "16.x"
+  },
   "repository": "https://github.com/NeXi420/EdwardBot_Guilded.git",
   "author": "NeXi <43706130+NeXi420@users.noreply.github.com>",
   "license": "MIT",
