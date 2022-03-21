@@ -16,6 +16,14 @@
     "@guildedjs/embeds" "^1.0.3"
     uuid "^8.3.2"
 
+"@guildedjs/common@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@guildedjs/common/-/common-2.0.0.tgz#416ac87fd71408cde46d4dd319bb4bfac37178fa"
+  integrity sha512-qBkOTjuz8m2TT1LJ8la6AjDuoFFFziMnVTTxM+KdlwoIwdMyRNAaDPnMOu7BRMqSwX+IChMz71jcCNOC671OIw==
+  dependencies:
+    "@discordjs/collection" "^0.1.6"
+    uuid "^8.3.2"
+
 "@guildedjs/embeds@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@guildedjs/embeds/-/embeds-1.0.3.tgz#aa565fb2ee4b1a991ac72e0b222637327f286344"
