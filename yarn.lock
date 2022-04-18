@@ -21,10 +21,10 @@
     "@guildedjs/embeds" "^1.0.3"
     uuid "^8.3.2"
 
-"@guildedjs/common@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@guildedjs/common/-/common-2.0.1.tgz#093140a7ed2bc3a7b2de2ef8b2b11f86374eedde"
-  integrity sha512-SxLlLd3yox0QDpkvw9LOM2cvaT6lWFfjLmBG5nXgSWyWg7Po0BFEd4Emng747pBRUTdGPRm7X+765vgwgWfAng==
+"@guildedjs/common@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@guildedjs/common/-/common-2.1.0.tgz#026f18be1402ad75120bb15801bc05263880df9a"
+  integrity sha512-V9LYV38u+k8Cj0+bThUrTqVFQ6IB9ADjGQlCavX3QTEutOLf6SkZG6p1bBlVHOMrVZqj1a5k4hOfw6R0Y1gJVA==
   dependencies:
     "@discordjs/collection" "^0.5.0"
     uuid "^8.3.2"
