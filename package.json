@@ -15,7 +15,7 @@
     "@guildedjs/embeds": "^1.0.3",
     "@guildedjs/guilded.js": "^2.2.1",
     "@guildedjs/webhook-client": "^1.0.4",
-    "better-sqlite3": "^7.5.1",
+    "better-sqlite3": "^7.5.3",
     "dotenv": "^16.0.1",
     "moment": "^2.29.3",
     "moment-duration-format": "^2.3.2"
