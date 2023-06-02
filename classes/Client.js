@@ -10,6 +10,7 @@ class Bot extends Client {
         this.commands = new CacheCollection();
         this.aliases = new CacheCollection();
         this.langs = new CacheCollection();
+        this.cooldowns = new CacheCollection();
         this.db = connect(this);
     }
 }
