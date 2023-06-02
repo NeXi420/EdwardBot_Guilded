@@ -1,6 +1,9 @@
 "use strict";
-const Database = require("better-sqlite3");
+const { QuickDB } = require('quick.db');
 module.exports = (bot) => {
-    const conn = new Database('edward.db', { verbose: console.log });
-    bot.conn = conn;
+    return new QuickDB({
+        filePath: "./database/database.sqlite",
+        asyncWrite: true,
+        asyncLocation: "./database/async.sqlite"
+    });
 }

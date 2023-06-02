@@ -1,23 +1,21 @@
 {
   "name": "edward-bot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Test",
   "main": "bot.js",
   "type": "commonjs",
   "engines": {
-    "node": "16.x"
+    "node": "20.x"
   },
   "repository": "https://github.com/NeXi420/EdwardBot_Guilded.git",
   "author": "NeXi <43706130+NeXi420@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "@guildedjs/common": "^2.1.0",
-    "@guildedjs/embeds": "^1.0.3",
-    "@guildedjs/guilded.js": "^2.2.1",
-    "@guildedjs/webhook-client": "^1.0.4",
     "better-sqlite3": "^8.4.0",
     "dotenv": "^16.1.3",
+    "guilded.js": "^0.22.6",
     "moment": "^2.29.4",
-    "moment-duration-format": "^2.3.2"
+    "moment-duration-format": "^2.3.2",
+    "quick.db": "^9.1.6"
   }
 }

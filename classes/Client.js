@@ -1,13 +1,16 @@
 "use strict";
-const { Client } = require("@guildedjs/guilded.js");
-const { CacheCollection } = require("@guildedjs/common");
+const { Client,CacheCollection } = require("guilded.js");
+const connect = require("../database/connect.js");
+const config = require("../config/config.js");
 class Bot extends Client {
     constructor() {
         super({
-
+            token: config.token,
         });
         this.commands = new CacheCollection();
         this.aliases = new CacheCollection();
+        this.langs = new CacheCollection();
+        this.db = connect(this);
     }
 }
 module.exports = Bot;
