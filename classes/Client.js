@@ -6,6 +6,24 @@ class Bot extends Client {
     constructor() {
         super({
             token: config.token,
+            cache: {
+                cacheCalendars: false,
+                cacheCalendarsRsvps: false,
+                cacheChannels: true,
+                cacheForumTopics: false,
+                cacheMemberBans: true,
+                cacheMessageReactions: true,
+                cacheMessages: true,
+                cacheServers: true,
+                cacheSocialLinks: false,
+                cacheWebhooks: true,
+                fetchMessageAuthorOnCreate: true,
+                removeCalendarRsvpOnDelete: true,
+                removeCalendarsOnDelete: true,
+                removeChannelOnDelete: true,
+                removeMemberBanOnUnban: true,
+                removeMemberOnLeave: true,
+            }
         });
         this.commands = new CacheCollection();
         this.aliases = new CacheCollection();

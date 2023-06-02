@@ -1,6 +1,6 @@
 "use strict";
 module.exports.run = async (bot, args, message, lang) => {
-    message.send("OK");
+    message.send(`OK, ${bot.servers.shouldCacheServer}`);
 }
 module.exports.config = {
     name: "dog",
