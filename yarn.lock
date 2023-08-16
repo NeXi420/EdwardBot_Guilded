@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-1.5.1.tgz#bc7ca557838dc29247bf19860426637f103bc383"
   integrity sha512-aWEc9DCf3TMDe9iaJoOnO2+JVAjeRNuRxPZQA6GVvBf+Z3gqUuWYBy2NWh4+5CLYq5uoc3MOvUQ5H5m8CJBqOA==
 
-"@guildedjs/api@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@guildedjs/api/-/api-0.3.1.tgz#20f49e7cff238454486da7a797b2297c31f054fa"
-  integrity sha512-JcF3duawJxzALZSMrUi4Rfmm4CWtNegVjej7lfnnzn1oLGyOUOYMWCsuJBnHi5W+S1mS35HnsWo77wpPTGHUvw==
+"@guildedjs/api@0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@guildedjs/api/-/api-0.3.2.tgz#544cc3b138f46c44d2c6023c95faa8b657c4cf44"
+  integrity sha512-Tn2DUQm2sPJn1jKLe+GGw1uwL837WCgtNAj5WjIMnM6zHaEoFgIWXM2uMZQ5GTWsC1ZTUu8XiCniGv7YvItv3Q==
   dependencies:
     "@types/ws" "8.5.4"
     form-data "^4.0.0"
@@ -171,13 +171,13 @@ github-from-package@0.0.0:
   resolved "https://registry.yarnpkg.com/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
   integrity sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==
 
-guilded.js@^0.23.4:
-  version "0.23.4"
-  resolved "https://registry.yarnpkg.com/guilded.js/-/guilded.js-0.23.4.tgz#d5f9136f5aa6098126b72614b8bc4524ecf0931a"
-  integrity sha512-x/tBHgxrAdJMxJ5tMNf5KbgEbUn/+Dmz7UuHPB7oO36J/Tg/4BI2JCcLTiuZpfqZUkz0zOdjtKPhRnSTvfqLHA==
+guilded.js@^0.23.5:
+  version "0.23.5"
+  resolved "https://registry.yarnpkg.com/guilded.js/-/guilded.js-0.23.5.tgz#40f5176a976a0e59b5d0238acd2c7c7887c19cde"
+  integrity sha512-5s9g+qpZo8oKNJNytF/pT9jlEZP1slVTkcTRVYgmlrfomYZoskZntzXtQbDHB3K6w0h4OZmMLdiQd3FET2SBUw==
   dependencies:
     "@discordjs/collection" "^1.5.1"
-    "@guildedjs/api" "0.3.1"
+    "@guildedjs/api" "0.3.2"
     typed-emitter "2.1.0"
 
 has-proto@^1.0.1:
