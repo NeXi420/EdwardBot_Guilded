@@ -171,10 +171,10 @@ github-from-package@0.0.0:
   resolved "https://registry.yarnpkg.com/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
   integrity sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==
 
-guilded.js@^0.23.5:
-  version "0.23.5"
-  resolved "https://registry.yarnpkg.com/guilded.js/-/guilded.js-0.23.5.tgz#40f5176a976a0e59b5d0238acd2c7c7887c19cde"
-  integrity sha512-5s9g+qpZo8oKNJNytF/pT9jlEZP1slVTkcTRVYgmlrfomYZoskZntzXtQbDHB3K6w0h4OZmMLdiQd3FET2SBUw==
+guilded.js@^0.23.7:
+  version "0.23.7"
+  resolved "https://registry.yarnpkg.com/guilded.js/-/guilded.js-0.23.7.tgz#946bbc4fc09f8ab61a0255ca1d0511c82bbd23c3"
+  integrity sha512-W7UkWqZhaIEtJmbe7cMXwTIuWlJ++vbOIluCQOfjayzScJx8o1KVmn3niAvONN/tJV/zNBJ5+pyXzMC8bhuEyQ==
   dependencies:
     "@discordjs/collection" "^1.5.1"
     "@guildedjs/api" "0.3.2"
