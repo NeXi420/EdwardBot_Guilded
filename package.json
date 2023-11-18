@@ -11,11 +11,11 @@
   "author": "NeXi <43706130+NeXi420@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "better-sqlite3": "^8.4.0",
+    "better-sqlite3": "^9.0.0",
     "dotenv": "^16.3.1",
-    "guilded.js": "^0.23.2",
+    "guilded.js": "^0.23.7",
     "moment": "^2.29.4",
     "moment-duration-format": "^2.3.2",
-    "quick.db": "^9.1.6"
+    "quick.db": "^9.1.7"
   }
 }
