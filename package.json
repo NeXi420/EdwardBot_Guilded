@@ -11,7 +11,7 @@
   "author": "NeXi <43706130+NeXi420@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "better-sqlite3": "^9.0.0",
+    "better-sqlite3": "^9.2.0",
     "dotenv": "^16.3.1",
     "guilded.js": "^0.23.7",
     "moment": "^2.29.4",
