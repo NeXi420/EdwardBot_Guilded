@@ -1,9 +1,5 @@
 "use strict";
-const { QuickDB } = require('quick.db');
+const mongodb = require("mongodb");
 module.exports = (bot) => {
-    return new QuickDB({
-        filePath: "./database/database.sqlite",
-        asyncWrite: true,
-        asyncLocation: "./database/async.sqlite"
-    });
+
 }

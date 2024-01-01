@@ -29,7 +29,6 @@ module.exports = {
                         channelID: false
                     }
                 }
-                await bot.db.set(server.id, config)
             }
         }
     },
