@@ -3,7 +3,7 @@ const { cooldown } = require("../modules/cooldownModule.js");
 module.exports = async (bot, message) => {
     const prefix = "!";
     const lang = "pl";
-    //const { prefix, lang } = await bot.db.get(message.server.id);
+    //const { prefix, lang } = await bot.db;
     if (message.content.match(`^<@!?${bot.user.id}> ?$`)) return message.send(`My prefix is ${prefix}`);
     if (message.content.indexOf(prefix) !== 0) return;
     const args = message.content.slice(prefix.length).trim().split(/ +/g);

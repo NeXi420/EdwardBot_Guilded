@@ -1,8 +1,7 @@
 "use strict";
 module.exports = {
     setup: async (bot) => {
-        console.log(bot.servers.shouldCacheServer)
-        const servers = await bot.servers.cache.values();//not working
+        const servers = await bot.servers.cache.values();
         console.log(servers);
         for (const server of servers) {
             console.log(server);
