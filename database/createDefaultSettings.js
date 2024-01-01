@@ -2,13 +2,11 @@
 module.exports = {
     setup: async (bot) => {
         const servers = await bot.servers.cache.values();
-        console.log(servers);
         for (const server of servers) {
-            console.log(server);
-            const dataGuild = await bot.db.get(server.id);
-            if (!dataGuild) {
+            const dataServer = await bot.db.collection("Settings").findOne({ _id: server.id });
+            if (!dataServer) {
                 const config = {
-                    guildID: server.id,
+                    _id: server.id,
                     prefix: "!",
                     lang: "pl",
                     embed: "#563d7c",
@@ -28,6 +26,7 @@ module.exports = {
                         channelID: false
                     }
                 }
+                await bot.db.collection("Settings").insertOne(config);
             }
         }
     },
