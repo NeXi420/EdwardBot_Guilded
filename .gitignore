@@ -1,6 +1,4 @@
-# For emperor xD
-database/database.sqlite
-database/async.sqlite
+.idea
 
 # Logs
 logs
