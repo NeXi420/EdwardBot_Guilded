@@ -1,6 +1,14 @@
 "use strict";
-const Database = require("better-sqlite3");
-module.exports = (bot) => {
-    const conn = new Database('edward.db', { verbose: console.log });
-    bot.conn = conn;
+const { MongoClient, ServerApiVersion } = require('mongodb');
+require("dotenv").config();
+module.exports = async (bot) => {
+    const client = new MongoClient(process.env.DATABASE_URL, {
+        serverApi: {
+            version: ServerApiVersion.v1,
+            strict: true,
+            deprecationErrors: true,
+        }
+    });
+    await client.connect();
+    bot.db = client.db("main");
 }
