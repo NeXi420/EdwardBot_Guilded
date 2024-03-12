@@ -26,12 +26,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mongodb-js/saslprep@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "@mongodb-js/saslprep@npm:1.1.1"
+"@mongodb-js/saslprep@npm:^1.1.5":
+  version: 1.1.5
+  resolution: "@mongodb-js/saslprep@npm:1.1.5"
   dependencies:
     sparse-bitfield: "npm:^3.0.3"
-  checksum: b59fb1ed62b1a31ad26bbca8a5d81a4f4c0b880c95616a3650f6eb57f27b6ae83e5597fd6a63ddf899d4ace6979a79eb0024f50d33d871ef7f93f73f1106e816
+  checksum: 482ae24d1d8e27dc5f2cdbc2dd9f75c32329c0e4804d93725c894b327322731051832abfa73e36399d7fcef50f2c6364077889d0c8b5ed8353e3364ea0b2a323
   languageName: node
   linkType: hard
 
@@ -74,10 +74,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bson@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "bson@npm:6.2.0"
-  checksum: 90f447dbafc97cf84cadcb75fa0fe1eecdcb396492ce3d47b1fbf2e6e2ce88bfcf92d62e491e1a70c2fc4a1bf7825d6ce53ba75ed3359c772c41b93ff84db410
+"bson@npm:^6.4.0":
+  version: 6.4.0
+  resolution: "bson@npm:6.4.0"
+  checksum: 1d64bf23b57c739ca0ae3f86859b264ea1bb1d6ce822a5ad468bcb990758855a3168af821fdb9fcf5df14872e2555299fa426f8a5a39792d16a1b925150c9532
   languageName: node
   linkType: hard
 
@@ -122,7 +122,7 @@ __metadata:
     guilded.js: "npm:^0.23.7"
     moment: "npm:^2.30.1"
     moment-duration-format: "npm:^2.3.2"
-    mongodb: "npm:^6.3.0"
+    mongodb: "npm:^6.5.0"
   languageName: unknown
   linkType: soft
 
@@ -237,12 +237,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "mongodb@npm:6.3.0"
+"mongodb@npm:^6.5.0":
+  version: 6.5.0
+  resolution: "mongodb@npm:6.5.0"
   dependencies:
-    "@mongodb-js/saslprep": "npm:^1.1.0"
-    bson: "npm:^6.2.0"
+    "@mongodb-js/saslprep": "npm:^1.1.5"
+    bson: "npm:^6.4.0"
     mongodb-connection-string-url: "npm:^3.0.0"
   peerDependencies:
     "@aws-sdk/credential-providers": ^3.188.0
@@ -267,7 +267,7 @@ __metadata:
       optional: true
     socks:
       optional: true
-  checksum: e846c941b739c503b34c02500db56f966fdb8930420db24214d4305ac987415464ebc9eefaf5da1ffb7521844fc733177433b4cc7ba43c423f55eed4f2670cfe
+  checksum: d51f8673b76f073ef5d0101d96b1adc3ebacd63890771cb72ae245081415887a2e0b5a9451b18e370f930d63173f2af68fac98371487995ae921140756fe510b
   languageName: node
   linkType: hard
 
