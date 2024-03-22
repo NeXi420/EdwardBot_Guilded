@@ -119,7 +119,7 @@ __metadata:
   resolution: "edward-bot@workspace:."
   dependencies:
     dotenv: "npm:^16.3.1"
-    guilded.js: "npm:^0.23.7"
+    guilded.js: "npm:^0.24.0"
     moment: "npm:^2.30.1"
     moment-duration-format: "npm:^2.3.2"
     mongodb: "npm:^6.3.0"
@@ -156,14 +156,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"guilded.js@npm:^0.23.7":
-  version: 0.23.7
-  resolution: "guilded.js@npm:0.23.7"
+"guilded.js@npm:^0.24.0":
+  version: 0.24.0
+  resolution: "guilded.js@npm:0.24.0"
   dependencies:
     "@discordjs/collection": "npm:^1.5.1"
     "@guildedjs/api": "npm:0.3.2"
     typed-emitter: "npm:2.1.0"
-  checksum: 94706138320234cd81195b7d286d324daa42bbdf1c10d7395f0dcfc8ce2eb6ea1cfebffc6ed901091bbc2ddd5cff065bcd9720dd672200f47f2143d642664cd6
+  checksum: 9d1b2dabdfd4e3b933fb15109131e021a83e31d3a9b4ebef55e68e9c22e5b5568b9a42bdd20bc9aef5d7d990d841bfdc9fbd0b4b2e13eee207c85656243c8f08
   languageName: node
   linkType: hard
 
