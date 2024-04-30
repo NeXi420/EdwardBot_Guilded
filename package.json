@@ -5,7 +5,7 @@
   "main": "bot.js",
   "type": "commonjs",
   "engines": {
-    "node": "20.x"
+    "node": "21.x"
   },
   "repository": "https://github.com/NeXi420/EdwardBot_Guilded.git",
   "author": "NeXi <43706130+NeXi420@users.noreply.github.com>",
