@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@guildedjs/api@npm:0.3.2":
-  version: 0.3.2
-  resolution: "@guildedjs/api@npm:0.3.2"
+"@guildedjs/api@npm:0.3.3":
+  version: 0.3.3
+  resolution: "@guildedjs/api@npm:0.3.3"
   dependencies:
     "@types/ws": "npm:8.5.4"
     form-data: "npm:^4.0.0"
@@ -22,16 +22,16 @@ __metadata:
     qs: "npm:^6.11.2"
     typed-emitter: "npm:2.1.0"
     ws: "npm:8.13.0"
-  checksum: baa2bbe6ebb084814fab354bbb38bbcaea6c5624b92f703d5afba55568930b1140bf70ab4ba522ef886d1f9d95c1f9ca95d959051ccb1d3f27220aac59639f3e
+  checksum: 3c8c58dbbaae238ee0e2f3b87ff0f0cae024afc3bbdd73eae5adadd306a31db7d33908119214ff25c96bcb3a7787a7308960e290ea07d5441c7cb46935a043b0
   languageName: node
   linkType: hard
 
-"@mongodb-js/saslprep@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "@mongodb-js/saslprep@npm:1.1.1"
+"@mongodb-js/saslprep@npm:^1.1.5":
+  version: 1.1.5
+  resolution: "@mongodb-js/saslprep@npm:1.1.5"
   dependencies:
     sparse-bitfield: "npm:^3.0.3"
-  checksum: b59fb1ed62b1a31ad26bbca8a5d81a4f4c0b880c95616a3650f6eb57f27b6ae83e5597fd6a63ddf899d4ace6979a79eb0024f50d33d871ef7f93f73f1106e816
+  checksum: 482ae24d1d8e27dc5f2cdbc2dd9f75c32329c0e4804d93725c894b327322731051832abfa73e36399d7fcef50f2c6364077889d0c8b5ed8353e3364ea0b2a323
   languageName: node
   linkType: hard
 
@@ -74,10 +74,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bson@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "bson@npm:6.2.0"
-  checksum: 90f447dbafc97cf84cadcb75fa0fe1eecdcb396492ce3d47b1fbf2e6e2ce88bfcf92d62e491e1a70c2fc4a1bf7825d6ce53ba75ed3359c772c41b93ff84db410
+"bson@npm:^6.4.0":
+  version: 6.6.0
+  resolution: "bson@npm:6.6.0"
+  checksum: cb1690c6a72fbda88bc6af97540d5152d8f5c7ce3f004012b3dc8bfc3420a30af8aaf4eee47c731432ab7e470e288d078b0a339bdfe9cab1ebfc7c3bb3dcebc4
   languageName: node
   linkType: hard
 
@@ -107,10 +107,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.3.1":
-  version: 16.3.1
-  resolution: "dotenv@npm:16.3.1"
-  checksum: b95ff1bbe624ead85a3cd70dbd827e8e06d5f05f716f2d0cbc476532d54c7c9469c3bc4dd93ea519f6ad711cb522c00ac9a62b6eb340d5affae8008facc3fbd7
+"dotenv@npm:^16.4.5":
+  version: 16.4.5
+  resolution: "dotenv@npm:16.4.5"
+  checksum: 48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
   languageName: node
   linkType: hard
 
@@ -118,11 +118,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "edward-bot@workspace:."
   dependencies:
-    dotenv: "npm:^16.3.1"
-    guilded.js: "npm:^0.23.7"
+    dotenv: "npm:^16.4.5"
+    guilded.js: "npm:^0.24.2"
     moment: "npm:^2.30.1"
     moment-duration-format: "npm:^2.3.2"
-    mongodb: "npm:^6.3.0"
+    mongodb: "npm:^6.5.0"
   languageName: unknown
   linkType: soft
 
@@ -156,14 +156,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"guilded.js@npm:^0.23.7":
-  version: 0.23.7
-  resolution: "guilded.js@npm:0.23.7"
+"guilded.js@npm:^0.24.2":
+  version: 0.24.2
+  resolution: "guilded.js@npm:0.24.2"
   dependencies:
     "@discordjs/collection": "npm:^1.5.1"
-    "@guildedjs/api": "npm:0.3.2"
+    "@guildedjs/api": "npm:0.3.3"
     typed-emitter: "npm:2.1.0"
-  checksum: 94706138320234cd81195b7d286d324daa42bbdf1c10d7395f0dcfc8ce2eb6ea1cfebffc6ed901091bbc2ddd5cff065bcd9720dd672200f47f2143d642664cd6
+  checksum: 5f7e8a99330964a94815d90f7d2fdddb6df4de6b3167e8c1fe2ad750041127e28cdb58acc4c822539b27f56d95419e9567876b4c034e94b2f64accc62855598d
   languageName: node
   linkType: hard
 
@@ -237,12 +237,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "mongodb@npm:6.3.0"
+"mongodb@npm:^6.5.0":
+  version: 6.5.0
+  resolution: "mongodb@npm:6.5.0"
   dependencies:
-    "@mongodb-js/saslprep": "npm:^1.1.0"
-    bson: "npm:^6.2.0"
+    "@mongodb-js/saslprep": "npm:^1.1.5"
+    bson: "npm:^6.4.0"
     mongodb-connection-string-url: "npm:^3.0.0"
   peerDependencies:
     "@aws-sdk/credential-providers": ^3.188.0
@@ -267,7 +267,7 @@ __metadata:
       optional: true
     socks:
       optional: true
-  checksum: e846c941b739c503b34c02500db56f966fdb8930420db24214d4305ac987415464ebc9eefaf5da1ffb7521844fc733177433b4cc7ba43c423f55eed4f2670cfe
+  checksum: d51f8673b76f073ef5d0101d96b1adc3ebacd63890771cb72ae245081415887a2e0b5a9451b18e370f930d63173f2af68fac98371487995ae921140756fe510b
   languageName: node
   linkType: hard
 
