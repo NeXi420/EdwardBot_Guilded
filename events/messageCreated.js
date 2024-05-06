@@ -1,7 +1,11 @@
 "use strict";
+const { UserType } = require("guilded.js");
 const { cooldown } = require("../modules/cooldownModule.js");
+const { chatai } = require("../modules/chataiModule.js");
 module.exports = async (bot, message) => {
-    const settings= await bot.db.collection("Settings").findOne({ _id: message.server.id });
+    if (!message.author) return;
+    chatai(bot, message);
+    const settings = await bot.db.collection("Settings").findOne({ _id: message.server.id });
     if (!settings) return;
     const { prefix, lang } = settings;
     if (message.content.match(`^<@!?${bot.user.id}> ?$`)) return message.send(`My prefix is ${prefix}`);

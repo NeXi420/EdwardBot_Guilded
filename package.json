@@ -1,7 +1,7 @@
 {
   "name": "edward-bot",
-  "version": "0.0.5",
-  "description": "Test",
+  "version": "0.0.6",
+  "description": "Testowanie...",
   "main": "bot.js",
   "type": "commonjs",
   "engines": {
@@ -11,12 +11,23 @@
   "author": "NeXi <43706130+NeXi420@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
+    "aki-api": "^7.0.0",
+    "canvas": "^2.11.2",
+    "chalk": "4.1.2",
+    "compression": "^1.7.4",
     "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "figlet": "^1.7.0",
     "g4f": "^1.4.3",
     "guilded.js": "^0.24.2",
+    "helmet": "^7.1.0",
+    "jsdom": "^24.0.0",
+    "junit2json": "^3.1.7",
     "moment": "^2.30.1",
     "moment-duration-format": "^2.3.2",
-    "mongodb": "^6.5.0"
+    "mongodb": "^6.6.0",
+    "stripe": "^15.5.0"
   },
   "packageManager": "yarn@4.1.1"
 }

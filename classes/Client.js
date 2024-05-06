@@ -1,5 +1,6 @@
 "use strict";
 const { Client, CacheCollection } = require("guilded.js");
+const { errEvents } = require("../modules/catchErrorModule.js");
 const config = require("../config/config.js");
 class Bot extends Client {
     constructor() {
@@ -28,7 +29,9 @@ class Bot extends Client {
         this.aliases = new CacheCollection();
         this.langs = new CacheCollection();
         this.cooldowns = new CacheCollection();
+        this.aichathistory = new CacheCollection();
         this.db;
+        errEvents(this).then(r => r).catch(err => this.error(err));
     }
 }
 module.exports = Bot;
