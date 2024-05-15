@@ -11,7 +11,7 @@
   "author": "NeXi <43706130+NeXi420@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "aki-api": "^7.0.0",
+    "aki-api": "^7.0.1",
     "canvas": "^2.11.2",
     "chalk": "4.1.2",
     "compression": "^1.7.4",

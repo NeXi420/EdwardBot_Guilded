@@ -208,16 +208,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aki-api@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "aki-api@npm:7.0.0"
+"aki-api@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "aki-api@npm:7.0.1"
   dependencies:
     axios: "npm:^1.6.8"
     form-data: "npm:^4.0.0"
     html-entities: "npm:^2.5.2"
     https-proxy-agent: "npm:^6.2.1"
     node_extra_ca_certs_mozilla_bundle: "npm:^1.0.6"
-  checksum: 10c0/144f3a52852d4085fafdd0c2833fef745889c7e53125a255efc401273e6e1cddeda7117c49e8d7d6abfa4acc59bd9a0176179c316ed392941ad2c016ad494463
+  checksum: 10c0/bbd875d90c3be4c8a56763362ef53201a04b931fc63247e008c6d379c55d32230bfe356d19c9d4bbebd2192b42aa91bff24d3d086de298db2a65356ebf08ea4e
   languageName: node
   linkType: hard
 
@@ -758,7 +758,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "edward-bot@workspace:."
   dependencies:
-    aki-api: "npm:^7.0.0"
+    aki-api: "npm:^7.0.1"
     canvas: "npm:^2.11.2"
     chalk: "npm:4.1.2"
     compression: "npm:^1.7.4"
