@@ -770,7 +770,7 @@ __metadata:
     guilded.js: "npm:^0.24.2"
     helmet: "npm:^7.1.0"
     jsdom: "npm:^24.0.0"
-    junit2json: "npm:^3.1.7"
+    junit2json: "npm:^3.1.8"
     moment: "npm:^2.30.1"
     moment-duration-format: "npm:^2.3.2"
     mongodb: "npm:^6.6.0"
@@ -1532,16 +1532,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"junit2json@npm:^3.1.7":
-  version: 3.1.7
-  resolution: "junit2json@npm:3.1.7"
+"junit2json@npm:^3.1.8":
+  version: 3.1.8
+  resolution: "junit2json@npm:3.1.8"
   dependencies:
     "@types/xml2js": "npm:0.4.14"
     xml2js: "npm:0.6.2"
     yargs: "npm:17.7.2"
   bin:
     junit2json: dist/cjs/cli.js
-  checksum: 10c0/98411d1385788aa29c3ccdbe9d3e0e705deef22b376e6fc2c15fb266acb1eda2a6c9d97f4e18c572b054e7eb71737a79cf60833c4040d7a84ff32a494c3c1d62
+  checksum: 10c0/ae7bc117f9de1904750052cd47f17885a2c69fc6e7d18d888d0fc421856776adb6c709b1fbf107080bbb3f375fe7564dde7081df96e643f4a4ef105a842be350
   languageName: node
   linkType: hard
 
