@@ -773,7 +773,7 @@ __metadata:
     junit2json: "npm:^3.1.7"
     moment: "npm:^2.30.1"
     moment-duration-format: "npm:^2.3.2"
-    mongodb: "npm:^6.6.0"
+    mongodb: "npm:^6.8.0"
     stripe: "npm:^15.5.0"
   languageName: unknown
   linkType: soft
@@ -1823,9 +1823,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:^6.6.0":
-  version: 6.6.0
-  resolution: "mongodb@npm:6.6.0"
+"mongodb@npm:^6.8.0":
+  version: 6.8.0
+  resolution: "mongodb@npm:6.8.0"
   dependencies:
     "@mongodb-js/saslprep": "npm:^1.1.5"
     bson: "npm:^6.7.0"
@@ -1853,7 +1853,7 @@ __metadata:
       optional: true
     socks:
       optional: true
-  checksum: 10c0/05f77be97f1d6d2e4b5949d23c6da1d0749adbce58f7608bc9432692335f00c849ee4eb81d0137c3329f205ff490181dae7b82b2b40537e943b7527fa6a09bde
+  checksum: 10c0/5ea1b78d3d7915b7d8e1047f15247e7d831ff79c537c51656b34b5a223f917ab686b96cdf5eca7495a1f0125f7cc4b1355881645138c995a50c42b8b0665e518
   languageName: node
   linkType: hard
 
