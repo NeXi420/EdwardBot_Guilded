@@ -774,7 +774,7 @@ __metadata:
     moment: "npm:^2.30.1"
     moment-duration-format: "npm:^2.3.2"
     mongodb: "npm:^6.6.0"
-    stripe: "npm:^15.5.0"
+    stripe: "npm:^16.2.0"
   languageName: unknown
   linkType: soft
 
@@ -2647,13 +2647,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stripe@npm:^15.5.0":
-  version: 15.5.0
-  resolution: "stripe@npm:15.5.0"
+"stripe@npm:^16.2.0":
+  version: 16.2.0
+  resolution: "stripe@npm:16.2.0"
   dependencies:
     "@types/node": "npm:>=8.1.0"
     qs: "npm:^6.11.0"
-  checksum: 10c0/69bf0fda79949a9e35a2b73a1353e162d669d853199b56645f479d040bc914e1dfd75e172825ce321191cafed98542ffd7befe4e5fb616ee52e6213138c74604
+  checksum: 10c0/893bdca9ee43d11f59e2c44b5d9f6816415ec1ac7e0430b149583a20745ca6ed25f77a31bbefbca08204c1cc32ecc35ca6a8c9350859f50b598e4d4f6f2b77e0
   languageName: node
   linkType: hard
 
